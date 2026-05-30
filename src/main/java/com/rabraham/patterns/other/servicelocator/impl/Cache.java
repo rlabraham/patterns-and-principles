@@ -1,6 +1,6 @@
-package com.rabraham.patterns.servicelocator.impl;
+package com.rabraham.patterns.other.servicelocator.impl;
 
-import com.rabraham.patterns.servicelocator.Service;
+import com.rabraham.patterns.other.servicelocator.Service;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 

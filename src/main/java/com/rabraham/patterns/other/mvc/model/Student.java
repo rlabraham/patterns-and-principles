@@ -1,4 +1,4 @@
-package com.rabraham.patterns.mvc.model;
+package com.rabraham.patterns.other.mvc.model;
 
 import lombok.Getter;
 import lombok.Setter;

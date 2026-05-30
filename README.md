@@ -171,6 +171,12 @@ The service locator design pattern is used when we want to locate various servic
 
 ![service locator pattern](https://www.tutorialspoint.com/design_pattern/images/servicelocator_pattern_uml_diagram.jpg)
 
+#### Envelope Pattern
+
+Often called the Envelope Wrapper, Envelope Pattern is an architectural approach in messaging and data integration. It wraps application data (the payload) inside a standardized container with headers. This allows systems to route, trace, and process messages without reading or opening the underlying data.
+
+![envelope pattern](https://softwarearch.santoslab.org/_images/adapt2.png)
+
 ## Misc
 
 ### Project Lombok

@@ -1,8 +1,8 @@
-package com.rabraham.patterns.mvc;
+package com.rabraham.patterns.other.mvc;
 
-import com.rabraham.patterns.mvc.controller.StudentController;
-import com.rabraham.patterns.mvc.model.Student;
-import com.rabraham.patterns.mvc.view.StudentView;
+import com.rabraham.patterns.other.mvc.controller.StudentController;
+import com.rabraham.patterns.other.mvc.model.Student;
+import com.rabraham.patterns.other.mvc.view.StudentView;
 
 public class MvcPatternDemo {
     public static void main(String[] args) {

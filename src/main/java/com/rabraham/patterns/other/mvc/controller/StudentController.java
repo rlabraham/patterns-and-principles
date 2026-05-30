@@ -1,7 +1,7 @@
-package com.rabraham.patterns.mvc.controller;
+package com.rabraham.patterns.other.mvc.controller;
 
-import com.rabraham.patterns.mvc.model.Student;
-import com.rabraham.patterns.mvc.view.StudentView;
+import com.rabraham.patterns.other.mvc.model.Student;
+import com.rabraham.patterns.other.mvc.view.StudentView;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
 

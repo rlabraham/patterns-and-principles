@@ -1,4 +1,4 @@
-package com.rabraham.patterns.mvc.view;
+package com.rabraham.patterns.other.mvc.view;
 
 import lombok.extern.slf4j.Slf4j;
 

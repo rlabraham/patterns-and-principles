@@ -2,7 +2,6 @@ package com.rabraham.patterns.behavioral.circuitbreaker;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.apache.commons.lang3.concurrent.CircuitBreakingException;
 
@@ -10,7 +9,7 @@ import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 import java.util.concurrent.locks.ReentrantLock;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+@Getter @Setter @AllArgsConstructor
 public class CircuitBreaker {
     private final CircuitBreakerStateStore stateStore = new CircuitBreakerStateStoreImpl();
     private final Object halfOpenSyncObject = new Object();

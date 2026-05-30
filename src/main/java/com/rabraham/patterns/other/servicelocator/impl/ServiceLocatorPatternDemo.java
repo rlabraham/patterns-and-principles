@@ -1,6 +1,6 @@
-package com.rabraham.patterns.servicelocator.impl;
+package com.rabraham.patterns.other.servicelocator.impl;
 
-import com.rabraham.patterns.servicelocator.Service;
+import com.rabraham.patterns.other.servicelocator.Service;
 
 public class ServiceLocatorPatternDemo {
     public static void main(String[] args) {
