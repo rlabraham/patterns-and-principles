@@ -157,7 +157,7 @@ MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to se
 
 #### Service Locator Pattern
 
-The service locator design pattern is used when we want to locate various services using JNDI (Java Naming and Directory Interface) lookup. Considering high cost of looking up JNDI for a service, Service Locator pattern makes use of caching technique. For the first time a service is required, Service Locator looks up in JNDI and caches the service object. Further lookup or same service via Service Locator is done in its cache which improves the performance of application to great extent. Following are the entities of this type of design pattern.
+The service locator design pattern is used when we want to locate various services using JNDI (Java Naming and Directory Interface) lookup. Considering the high cost of looking up JNDI for a service, Service Locator pattern makes use of caching technique. For the first time a service is required, Service Locator looks up in JNDI and caches the service object. Further lookup or same service via Service Locator is done in its cache which improves the performance of application to great extent. Following are the entities of this type of design pattern.
 
    - **Service** - Actual Service which will process the request. Reference of such service is to be looked upon in JNDI server.
 
@@ -187,3 +187,5 @@ This project uses SLF4J for logging. See http://www.slf4j.org/ for more informat
 
 ### Apache Commons-Lang
 This project uses the Apache Commons-Lang library in several places. See https://commons.apache.org/proper/commons-lang/ for more information.
+
+[Support the project](https://venmo.com/code?user_id=3791906710488515336&created=1790427864)
